@@ -1,4 +1,5 @@
 function isPalindrome(word) {
+  //If there are any spaces or capitol letters this will remove them and/or replace them.
     word = word.replace(/ /g, "").toLowerCase();
     /*
     Creates an If/Else function were it pulls from the id=word from the HTML file and splits the string into an array where each letter is it's own element.

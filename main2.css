@@ -5,10 +5,6 @@ body {
   button[type="button"] {
     background-color: blue;
     color: white;
-    position: center;
-    margin: auto;
-    width: auto;
-    padding: 15px;
   }
   /*This controls the position and size of the "result"*/
   #result {
