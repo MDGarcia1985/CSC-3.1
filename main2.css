@@ -1,0 +1,32 @@
+body {
+    background-color: slategray;
+  }
+  
+  button[type="button"] {
+    background-color: blue;
+    color: white;
+  }
+  
+  button[type="button"].incorrect {
+    background-color: red;
+  }
+  
+  button[type="button"].incorrect:focus {
+    background-color: red;
+    outline: none;
+  }
+  
+  button[type="button"].incorrect:hover {
+    background-color: red;
+  }
+  
+  button[type="button"]:focus,
+  button[type="button"]:hover {
+    outline: none;
+  }
+  
+  button[type="button"] {
+    display: block;
+    margin: 0 auto;
+  }
+  
