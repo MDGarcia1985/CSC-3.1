@@ -2,18 +2,22 @@
 <html>
 <head>
   <title>Palindrome Checker</title>
+  <!--CSS file link-->
   <link rel="stylesheet" href="main2.css">
-
 </head>
 <body>
   <h1>Palindrome Checker</h1>
   <form>
+    <!--The label is used to create the beginning of the form before the input box. It  tells the user what to enter into the input box-->
     <label for="word">Enter a word:</label>
+    <!--The input box is the user imput field and the type of input in this case is "Text" and uses "word" as the ID to be found by other commands or functions-->
     <input type="text" id="word" />
+    <!--The button initiates the function "checkPalindrome()"-->
     <button type="button" onclick="checkPalindrome()">Check</button>
   </form>
+  <!--The div id+"result" is to contain and control the result of pushing the "checkPalindrome()" button-->
   <div id="result"></div>
-
+<!--JavaScript link-->
   <script src="main.js"></script>
 </body>
 </html>

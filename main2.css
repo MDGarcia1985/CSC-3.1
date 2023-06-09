@@ -1,32 +1,19 @@
 body {
     background-color: slategray;
   }
-  
+  /*This controls the look and position of the "check" button*/
   button[type="button"] {
     background-color: blue;
     color: white;
+    position: center;
+    margin: auto;
+    width: auto;
+    padding: 15px;
   }
-  
-  button[type="button"].incorrect {
-    background-color: red;
-  }
-  
-  button[type="button"].incorrect:focus {
-    background-color: red;
-    outline: none;
-  }
-  
-  button[type="button"].incorrect:hover {
-    background-color: red;
-  }
-  
-  button[type="button"]:focus,
-  button[type="button"]:hover {
-    outline: none;
-  }
-  
-  button[type="button"] {
-    display: block;
+  /*This controls the position and size of the "result"*/
+  #result {
+    text-align: center;
     margin: 0 auto;
+    width: 300px;
+    padding: 10px;
   }
-  
